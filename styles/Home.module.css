@@ -2,7 +2,6 @@
 }
 
 .main {
-  background:  url("/lawn.jpg");
   min-height: 100vh;
   padding: 2rem;
   display: flex;
@@ -11,14 +10,81 @@
   align-items: flex-start;
 }
 
-.title {
+.topSection {
+  display: flex;
+}
+
+.topSectionBlock {
+  margin: 0 8px;
+}
+
+.topSectionText {
+  flex: 3;
+}
+
+.companyName {
+  font-size:  2rem;
+  margin-top:  0;
+}
+
+.topSectionImageContainer {
+  flex:  2;
+}
+
+.topSectionImage {
+  width:  100%;
+  height: auto;
+}
+
+.topSectionContact {
+  flex:  3;
+}
+
+.contactContainer {
+  background-color: var(--PRIMARY-COLOR);
+  color:  var(--WHITE);
+  padding: 24px;
+}
+
+.contactTitle {
   margin: 0;
-  line-height: 1.15;
-  font-size: 3rem;
+  font-size: 1.5rem;
+}
+
+.contactDetail {
+  background-color: var(--WHITE);
+  color: var(--PRIMARY-COLOR);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 24px 0;
+  padding: 12px;
+}
+
+.contactDetail:last-child {
+  margin-bottom: 8px;
+}
+
+.contactDetail svg {
+  color:  var(--GREY);
+}
+
+.contactDetail > * + * {
+  margin:  0 8px;
 }
 
 .title {
+  margin: 2rem 0 1rem;
+  line-height: 1.15;
+  font-size: 3rem;
   text-align: center;
+  width: 100%;
+}
+
+.moreInfo {
+  text-align: center;
+  width: 100%;
 }
 
 .footer {
@@ -29,4 +95,37 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+
+@media (max-width: 991px) {
+  .topSection {
+    flex-wrap: wrap;
+  }
+
+  .topSectionBlock {
+    margin: 8px 0;
+  }
+
+  .topSectionText {
+    width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .topSectionImageContainer {
+    width: 50%;
+    flex-basis: 50%;
+    padding-left:  8px;
+  }
+
+  .topSectionContact {
+    width: 100%;
+    flex-basis: 100%; 
+  }
+}
+
+@media (max-width: 575px) {
+  .topSectionImageContainer {
+    display: none;
+  }
 }
