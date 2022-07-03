@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import PhoneIcon from '../components/PhoneIcon';
 import EmailIcon from '../components/EmailIcon';
 import styles from '../styles/Home.module.css';
@@ -45,13 +44,10 @@ const Home: NextPage = () => {
                     <div
                         className={`${styles.topSectionBlock} ${styles.topSectionImageContainer}`}
                     >
-                        <Image
+                        <img
                             alt=""
                             className={styles.topSectionImage}
                             src="/water-boots.jpg"
-                            layout="intrinsic"
-                            width="640"
-                            height="427"
                         />
                     </div>
 
@@ -78,8 +74,10 @@ const Home: NextPage = () => {
                     Get Lawn Drainage in Clear Lake
                 </h1>
                 <p className={styles.moreInfo}>
-                    Lorem ipsum in magna sit incididunt eiusmod veniam ut quis
-                    occaecat sunt quis ex cupidatat in ea in exercitation.
+                    Our master drain layer will work with you to determine which
+                    type of drainage system is best for your drainage needs.
+                    Reach out today to schedule a free estimate. You&apos;ll be
+                    glad you did.
                 </p>
             </main>
 
