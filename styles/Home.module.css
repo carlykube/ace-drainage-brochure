@@ -41,7 +41,7 @@
 }
 
 .contactContainer {
-    background-color: var(--PRIMARY-COLOR);
+    background-color: var(--SECONDARY-COLOR);
     color: var(--WHITE);
     padding: 24px;
 }
@@ -49,6 +49,7 @@
 .contactTitle {
     margin: 0;
     font-size: 1.5rem;
+    color: var(--PRIMARY-COLOR);
 }
 
 .contactDetail {
@@ -82,16 +83,21 @@
     width: 100%;
 }
 
+.subtitle {
+    text-align: center;
+    width: 100%;
+    color: var(--GREY);
+    margin-top: -8px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .moreInfo {
     text-align: center;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.footer {
-    padding: 2rem;
-    border-top: 1px solid #eaeaea;
 }
 
 .logo {
@@ -122,6 +128,10 @@
     .topSectionContact {
         width: 100%;
         flex-basis: 100%;
+    }
+
+    .moreInfo {
+        width: 100%;
     }
 }
 

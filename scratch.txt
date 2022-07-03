@@ -1,0 +1,2 @@
+Deployed using: https://blog.borodutch.com/how-to-deploy-node-js-app-to-digital-ocean-droplet-with-free-continuous-integration/
+Ngnix setup: https://www.freecodecamp.org/news/deploy-nodejs-app-server-to-production/

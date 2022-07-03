@@ -1,0 +1,32 @@
+.container {
+    background-color: var(--PRIMARY-COLOR);
+    color: var(--WHITE);
+    padding: 22px 24px 18px;
+    border-bottom: solid 6px var(--SECONDARY-COLOR);
+}
+
+.linkContent {
+    display: flex;
+    align-items: center;
+}
+
+.linkText {
+    margin-left: 16px;
+    font-family: var(--PRIMARY-FONT);
+}
+
+.linkTextMain {
+    font-size: 48px;
+    line-height: 0.8;
+    font-weight: bold;
+}
+
+.linkTextSecondary {
+    letter-spacing: 3.4px;
+    font-weight: normal;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}

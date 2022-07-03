@@ -1,5 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import PhoneIcon from '../components/PhoneIcon';
 import EmailIcon from '../components/EmailIcon';
 import styles from '../styles/Home.module.css';
@@ -17,6 +19,8 @@ const Home: NextPage = () => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            <Header></Header>
 
             <main className={styles.main}>
                 <div className={styles.topSection}>
@@ -70,9 +74,10 @@ const Home: NextPage = () => {
                     </div>
                 </div>
 
-                <h1 className={styles.title}>
-                    Get Lawn Drainage in Clear Lake
-                </h1>
+                <h1 className={styles.title}>Lawn Drainage in Clear Lake</h1>
+                <subtitle className={styles.subtitle}>
+                    and surrounding areas
+                </subtitle>
                 <p className={styles.moreInfo}>
                     Our master drain layer will work with you to determine which
                     type of drainage system is best for your drainage needs.
@@ -81,17 +86,7 @@ const Home: NextPage = () => {
                 </p>
             </main>
 
-            <footer className={styles.footer}>
-                <div>Contact Us</div>
-                <div>
-                    <a href="tel:2817447871">281-744-7871</a>
-                </div>
-                <div>
-                    <a href="mailto:mark@acedrainage.com">
-                        mark@acedrainage.com
-                    </a>
-                </div>
-            </footer>
+            <Footer />
         </div>
     );
 };

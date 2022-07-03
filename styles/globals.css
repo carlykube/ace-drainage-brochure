@@ -2,8 +2,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: var(--SECONDARY-FONT), sans-serif;
     color: var(--GREY);
 }
 
@@ -17,7 +16,10 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
+    font-family: var(--PRIMARY-FONT);
+    font-weight: bold;
     color: var(--PRIMARY-COLOR);
 }
 
@@ -27,7 +29,11 @@ ul {
 }
 
 :root {
+    --PRIMARY-FONT: Kameron;
+    --SECONDARY-FONT: Open Sans;
     --PRIMARY-COLOR: #18253c;
-    --WHITE: #fff;
+    --SECONDARY-COLOR: #d3d0cb;
+    --WHITE: #ffffff;
+    /*--WHITE: #f4ecd6;*/
     --GREY: #596264;
 }
