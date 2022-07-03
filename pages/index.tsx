@@ -75,9 +75,7 @@ const Home: NextPage = () => {
                 </div>
 
                 <h1 className={styles.title}>Lawn Drainage in Clear Lake</h1>
-                <subtitle className={styles.subtitle}>
-                    and surrounding areas
-                </subtitle>
+                <div className={styles.subtitle}>and surrounding areas</div>
                 <p className={styles.moreInfo}>
                     Our master drain layer will work with you to determine which
                     type of drainage system is best for your drainage needs.

@@ -5,14 +5,14 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.blurb}>
-                <div class={styles.mainTitle}>Standing water?</div>
+                <div className={styles.mainTitle}>Standing water?</div>
                 <div>
                     We’re experts at solving drainage issues. All questions and
                     inquiries are welcome.
                 </div>
             </div>
             <div className={styles.contactInfo}>
-                <div class={styles.title}>Contact Us</div>
+                <div className={styles.title}>Contact Us</div>
                 <a className={styles.contact} href="tel:2817447871">
                     281-744-7871
                 </a>
