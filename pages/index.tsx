@@ -66,8 +66,8 @@ const Home: NextPage = () => {
                             </div>
                             <div className={styles.contactDetail}>
                                 <EmailIcon></EmailIcon>
-                                <a href="mailto:mark@acedrainage.com">
-                                    mark@acedrainage.com
+                                <a href="mailto:mark@acedrainageco.com">
+                                    mark@acedrainageco.com
                                 </a>
                             </div>
                         </div>
