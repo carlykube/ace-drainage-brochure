@@ -49,6 +49,9 @@ const Home: NextPage = () => {
                             alt=""
                             className={styles.topSectionImage}
                             src="/water-boots.jpg"
+                            layout="intrinsic"
+                            width="640"
+                            height="427"
                         />
                     </div>
 
