@@ -74,7 +74,9 @@ const Home: NextPage = () => {
                     </div>
                 </div>
 
-                <h1 className={styles.title}>Lawn Drainage in Clear Lake</h1>
+                <h1 className={styles.title}>
+                    Lawn Drainage in Clear Lake, TX
+                </h1>
                 <div className={styles.subtitle}>and surrounding areas</div>
                 <p className={styles.moreInfo}>
                     Our master drain layer will work with you to determine which
